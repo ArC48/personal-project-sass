@@ -1,3 +1,9 @@
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .page9 {
 	background: #222533;
 	transform: translate(0, 333.2px);
@@ -6,9 +12,7 @@
 	height: 780px;
 }
 .page9-header-text {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include flex-center();
 	flex-direction: column;
 	text-align: center;
 	transform: translate(0, 102px);
@@ -60,9 +64,7 @@
 		  }
 
 		background: #1FDAB5;
-		display: flex;
-		justify-content: center;
-		align-items: center;
+		@include flex-center();
 		color: white;
 		margin-left: 15px;
 		margin-top: 5px;
