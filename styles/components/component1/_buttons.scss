@@ -1,5 +1,8 @@
 @import './palette';
 
+@debug hsl(34, 35%, 92.1%) == #f2ece4; 
+@debug "Lato" != "Arial"; 
+
 #CORE-FEATURES {
     width: 200px;
     height: 60px;
