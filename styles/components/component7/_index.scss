@@ -1,5 +1,6 @@
 $grey: #A1B1BC;
 $blueish: #2C3E50;
+$font-size: 40px - 4;
 
 .page7 {
 	transform: translate(374.76px, 248px);
@@ -11,8 +12,8 @@ $blueish: #2C3E50;
 	flex-direction: column;
 	text-align: center;
 	h5{
-		font-size: 36px;
-		line-height: 20px;
+		font-size: $font-size;
+		line-height: $font-size - 16;
 		font-family: 'Lato', sans-serif;
 		font-weight: 300;
 		color: $blueish;
