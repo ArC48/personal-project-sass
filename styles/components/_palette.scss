@@ -1,1 +1,28 @@
 $header-background-color: #222533;
+
+$dark-grey: rgb(31, 31, 31);
+$dark-grey-secondary: #4d4d4d;
+$medium-grey: #4d4d4d;
+$medium-grey-secondary: rgb(88, 88, 88);
+$main-green: rgb(0, 116, 0);
+$white: #FFFFFF;
+
+$colors: (
+    color-white: $white,
+    green-table: rgb(0, 221, 0),
+    red-table: rgb(128, 30, 30),
+    color-light-grey: $medium-grey,
+    color-secondary-grey: $dark-grey-secondary,
+    color-green: $main-green,
+);
+
+$background-colors: (
+    background-dark-grey: $dark-grey-secondary,
+    background-green: $main-green,
+    background-red: rgb(177, 23, 23),
+);
+
+
+
+
+

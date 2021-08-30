@@ -1,0 +1,13 @@
+@import './palette';
+
+@each $color-class, $color in $colors{
+    .#{color-class} {
+        color: $color;
+    }
+}
+
+@each $background-class, $color in background-colors {
+    .#{$background-class} {
+        background-color: $color;
+    }
+}
