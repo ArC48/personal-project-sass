@@ -35,25 +35,28 @@
 .page5-round-box1 {
 	text-align: center;
 }
-.page5-text-under-circle {
-	p {
-		&:first-child {
+
+@for $var from 1 to 5 {
+	.page5-text-under-circle p:first-child{
 			font-size: 18px;
 			line-height: 40px;
 			font-family: 'Lato', sans-serif;
 			font-weight: 700;
 			color: white;
-		}
-		&:last-child {
-			font-size: 14px;
+	}
+}
+
+@for $var from 1 through 4{
+	.page5-text-under-circle p:last-child{
+					font-size: 14px;
 			line-height: 24px;
 			font-family: 'Lato', sans-serif;
 			font-weight: 400;
-			color: white;
+			color: rgb(255, 255, 255);
 			margin-top: -15px;
 		}
-	}
 }
+
 .box2 {
 	margin-left: 30px;
 }
