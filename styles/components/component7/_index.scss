@@ -1,3 +1,6 @@
+$grey: #A1B1BC;
+$blueish: #2C3E50;
+
 .page7 {
 	transform: translate(374.76px, 248px);
 }
@@ -12,7 +15,7 @@
 		line-height: 20px;
 		font-family: 'Lato', sans-serif;
 		font-weight: 300;
-		color: #2C3E50;
+		color: $blueish;
 		margin-top: 2px;
 	}
 	p {
@@ -198,7 +201,7 @@
 			letter-spacing: 1.2px;
 			font-family: 'Lato', sans-serif;
 			font-weight: 400;
-			color: #A1B1BC;
+			color: $grey;
 			padding-left: 8.2%;
 			margin-top: 36px;
 			position: absolute;
