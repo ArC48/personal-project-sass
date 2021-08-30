@@ -1,0 +1,93 @@
+
+.page6 {
+    transform: translate(0, 220px);
+}
+
+.page6-header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0;
+    margin-top: 4.1%;
+    transform: translate(645px, -20px);
+}
+
+.page6-header h4 {
+    font-size: 36px;
+    line-height: 20px;
+    color: #2C3E50;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.page6-header p {
+    color: #2C3E50;
+    font-size: 14px;
+    line-height: 24px;
+    word-spacing: 1.5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.page6-square-boxes {
+    margin-top: 18px;
+    display: flex;
+}
+
+.page6-square-box1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid #ECF0F1;
+    padding-left: -4px;
+}
+
+.page6-square-box1 img {
+    position: absolute;
+    transform: translate(-20px, 30px);
+}
+
+.page6-text-under-square-box p:first-child {
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C3E50;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    transform: translate(0px, 110px);
+}
+
+.page6-square-box1:hover{
+    background-color: rgba(112, 112, 112, 0.315);
+}
+
+.page6-text-under-square-box p:last-child {
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    transform: translate(0px, 107px);
+}
+
+.lock {
+    margin-left: -5.5px;
+}
+
+.loop {
+    margin-left: -8px;
+}
+
+.red-icon {
+    margin-left: -8px;
+}
+
+.loop-background {
+    background: #F9FBFA;
+}

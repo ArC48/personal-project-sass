@@ -1,0 +1,109 @@
+.page8 {
+	transform: translate(0px, 333px);
+	background: #ECF0F1;
+}
+.page8-header-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	transform: translate(0, 100px);
+	h5 {
+		font-size: 36px;
+		line-height: 20px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		color: #2C3E50;
+		margin-top: 2px;
+	}
+	p {
+		font-size: 14px;
+		line-height: 24px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		color: #A1B1BC;
+		margin-top: -37px;
+	}
+}
+.page8-inline-div {
+	width: 1170px;
+	height: 146px;
+	background: white;
+	border-radius: 1px;
+	border: none;
+	transform: translate(375px, 150px);
+	font-size: 18px;
+	line-height: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #A1B1BC;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.page8-circle {
+	width: 112px;
+	height: 112px;
+	background: white;
+	border-radius: 50%;
+	position: relative;
+	transform: translate(905px, 186.5px);
+	div {
+		width: 100px;
+		height: 100px;
+		background: #A1B1BC;
+		border-radius: 50%;
+		position: absolute;
+		margin: 5.5% 5.5%;
+	}
+}
+.page8-text-under-circle {
+	width: 108.9px;
+	height: 47px;
+	transform: translate(910px, 184px);
+	p {
+		&:first-child {
+			font-size: 18px;
+			line-height: 24px;
+			font-family: 'Lato', sans-serif;
+			font-weight: 700;
+			color: #2C3E50;
+			margin-left: 2px;
+		}
+		&:last-child {
+			font-size: 14px;
+			line-height: 24px;
+			font-family: 'Lato', sans-serif;
+			font-weight: 400;
+			color: #A1B1BC;
+			margin-left: -3px;
+			margin-top: -16.3px;
+		}
+	}
+}
+.page8-radio {
+	transform: translate(919px, 232px);
+	width: 100px;
+	input[type="radio"] {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		display: inline-block;
+		width: 14px;
+		height: 14px;
+		padding: 3px;
+		background-clip: content-box;
+		background: #FFFFFF;
+		border-radius: 50%;
+		margin-left: 3px;
+		&:checked {
+			background-color: #1ABC9C;
+			width: 14px;
+			height: 14px;
+			border: 4px solid #FFFFFF;
+			padding: 1px;
+		}
+	}
+}

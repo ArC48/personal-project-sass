@@ -1,0 +1,40 @@
+@import './palette';
+
+.navigation {
+	display: flex;
+	nav {
+		ul {
+			display: flex;
+			margin-top: 18px;
+			li {
+				list-style: none;
+				font-size: 15px;
+				line-height: 19px;
+				font-family: 'Lato', sans-serif;
+				font-weight: 400;
+				color: $li-color;
+				&:hover {
+					cursor: pointer;
+					color: $li-hover-color;
+				}
+			}
+		}
+	}
+}
+.navigation-header {
+	display: flex;
+	justify-content: space-between;
+	img {
+		margin-top: 4px;
+	}
+	p {
+		font-size: 35.69px;
+		font-family: 'Lato', sans-serif;
+		margin-top: 5px;
+		margin-left: 17px;
+	}
+	span {
+		font-weight: 900;
+		margin-right: -6px;
+	}
+}

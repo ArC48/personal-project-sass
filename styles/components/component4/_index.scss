@@ -1,0 +1,53 @@
+.page4 {
+	display: flex;
+}
+.page4-left-div {
+	width: auto;
+	height: auto;
+	transform: translate(374px, 113px);
+}
+.page4-header {
+	p {
+		font-size: 36px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		line-height: 19px;
+		color: #2C3E50;
+	}
+}
+.page4-text-div {
+	width: 570px;
+	height: 205.97px;
+	margin-top: -9px;
+	margin-left: 1px;
+	p {
+		font-size: 14px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		line-height: 24px;
+		color: #A1B1BC;
+	}
+}
+#VIEW-MORE {
+	width: 173.68px;
+	height: 50px;
+	border: 1px solid #E5E5E5;
+	border-radius: 1px;
+	background: initial;
+	color: #34495E;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	line-height: 40px;
+	margin-top: -11px;
+	&:hover {
+		background-color: #16B5D8;
+		color: white;
+		cursor: pointer;
+	}
+}
+.iPad {
+	width: 543px;
+	height: 275px;
+	transform: translate(438px, 172px);
+}
