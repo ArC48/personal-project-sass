@@ -5,10 +5,14 @@ $font-size: 40px - 4;
 .page7 {
 	transform: translate(374.76px, 248px);
 }
-.page7-header-text {
+
+.flex-center{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.page7-header-text {
+	@extend .flex-center;
 	flex-direction: column;
 	text-align: center;
 	h5{
