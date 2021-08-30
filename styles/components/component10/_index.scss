@@ -62,36 +62,18 @@
 				text-align: center;
 			}
 		}
-		&:nth-child(2) {
+		$Page10Data: ( 1: 0, 2: 1, 3: 2, 4: 1, 5: 1, 6: 1, 7: 1);
+			@mixin page10P($MarginTop) {
+    		margin-top: $MarginTop;
+}
+			@each $i,
+			$MarginTop in $Page10Data {
+    		&:nth-child(#{$i}) {
 			p {
-				margin-top: 1px;
+				margin-top: $MarginTop +px
 			}
-		}
-		&:nth-child(3) {
-			p {
-				margin-top: 2px;
-			}
-		}
-		&:nth-child(4) {
-			p {
-				margin-top: 1px;
-			}
-		}
-		&:nth-child(5) {
-			p {
-				margin-top: 1px;
-			}
-		}
-		&:nth-child(6) {
-			p {
-				margin-top: 1px;
-			}
-		}
-		&:nth-child(7) {
-			p {
-				margin-top: 1px;
-			}
-		}
+    	}
+	}
 		&:last-child {
 			height: 84px;
 		}
