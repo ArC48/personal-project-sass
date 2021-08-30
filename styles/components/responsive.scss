@@ -200,7 +200,7 @@
     height: 80px;
 }
 
-//in case you want to double your screen resolution without doing the math, 
+//in case you want to know what your double screen resolution would be, without doing the math, 
 //enter current screen width and height!
 @function doubleTheResolution($width, $height){
     $new-width: $width * 2;
